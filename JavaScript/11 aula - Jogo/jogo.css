@@ -1,0 +1,14 @@
+.principal
+{
+    border: solid black;   
+    height: 100vh;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.nomedoJogador
+{
+    margin: auto;
+    text-align: center;
+    width: 300px;
+}

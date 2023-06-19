@@ -1,0 +1,62 @@
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.SideBar
+{
+    background-color: #111;
+    height: 100%;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    position: fixed;
+    top: 0;
+    transition: 0.5s;
+    width: 0;
+    z-index: 1;
+}
+
+.SideBar a
+{
+    color: #818181;
+    display: block;
+    font-size: 25px;
+    padding: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.SideBar a:hover
+{
+    color: #f1f1f1;
+}
+
+.SideBar .closebtn
+{
+    font-size: 36px;
+    margin-left: 50px;
+    position: absolute;
+    right: 25px;
+    top: 0;
+}
+
+.openbtn
+{
+    background-color: #111;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+.openbtn:hover
+{
+    background-color: #444;
+}
+
+#main
+{
+    transition: 0.5s;
+}
